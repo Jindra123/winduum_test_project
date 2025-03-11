@@ -16,13 +16,13 @@ import { TitleContext } from "@/app/components/TitleProvider";
 export default function Sidebar() {
   const navItems = [
     {
-      href: "/moje-objednavky",
+      href: "/my-orders",
       label: "Moje objednávky",
       icon: ShoppingBagIcon,
       active: true,
     },
     {
-      href: "/faktury",
+      href: "/invoices",
       label: "Faktury",
       icon: DocumentCheckIcon,
       active: false,
@@ -52,7 +52,7 @@ export default function Sidebar() {
       active: false,
     },
     {
-      href: "/nastaveni-uctu",
+      href: "/account-settings",
       label: "Nastavení účtu",
       icon: Cog6ToothIcon,
       active: false,
