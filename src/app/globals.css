@@ -1,7 +1,23 @@
-@import "tailwindcss";
+@import "tailwindcss/theme.css" layer(theme);
+@import "winduum/tailwindcss/theme/config/index.css" layer(theme);
+@import "winduum/tailwindcss/theme/default.css" layer(theme);
+@import "winduum/src/theme/dark.css" layer(theme);
+@import "winduum/src/base/reset.css" layer(base);
+@import "winduum/src/base/defaults.css" layer(base);
+
+/* single imports for your components and utilities, or you can include them separately */
+@import "winduum/src/components/index.css" layer(components);
+@import "winduum/src/utilities/index.css" layer(utilities);
+
+@import "winduum/tailwindcss/utilities/index.css";
+@import "tailwindcss/utilities" layer(utilities);
+@import "winduum/tailwindcss/variants/index.css";
+@import "winduum/src/base/breakpoints.css";
+@import "winduum/src/base/keyframes.css";
+@import "winduum/src/base/transitions.css";
 
 :root {
-  --background: #ffffff;
+  --background: #FAFAFA;
   --foreground: #171717;
 }
 
@@ -12,7 +28,7 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
