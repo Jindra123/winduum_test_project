@@ -2,7 +2,6 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Sidebar from "@/app/components/Sidebar";
 import { TitleProvider } from "@/app/components/TitleProvider";
-import { useTitle } from "@/app/components/TitleProvider";
 import Header from "@/app/components/Header";
 
 // Fonts

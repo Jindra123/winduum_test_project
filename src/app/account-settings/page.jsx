@@ -188,17 +188,17 @@ export default function AccountSettings() {
             Přeji si dostávat informace o novinkách a slevách nebo inspiraci
           </div>
         </div>
-        <div className="flex justify-between">
-          <div className="space-x-3">
+        <div className="flex flex-col lg:flex-row lg:space-x-3 xl:justify-between">
+          <div className="lg:space-x-3 text-center space-y-3 mb-3">
             <button
               type="submit"
-              className="x-button font-semibold rounded-lg py-3 px-6"
+              className="x-button font-semibold w-full lg:w-fit rounded-lg py-3 px-6"
             >
               Uložit změny
             </button>
             <button
               type="submit"
-              className="x-button rounded-lg py-3 px-6 font-semibold bg-transparent text-neutral-900 border-1 border-primary hover:bg-primary hover:text-white"
+              className="x-button rounded-lg py-3 px-6 w-full lg:w-fit font-semibold bg-transparent text-neutral-900 border-1 border-primary hover:bg-primary hover:text-white"
             >
               Uložit změny
             </button>
